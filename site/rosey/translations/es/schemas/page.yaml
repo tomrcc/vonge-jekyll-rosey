@@ -1,0 +1,16 @@
+urlTranslation: schemas/page.html
+_inputs:
+  $:
+    type: object
+    comment: "[See schemas/page](https://suave-chamois.cloudvent.net/schemas/page)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [schemas/page](https://suave-chamois.cloudvent.net/schemas/page)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [schemas/page](https://suave-chamois.cloudvent.net/schemas/page)
+          inputs: []

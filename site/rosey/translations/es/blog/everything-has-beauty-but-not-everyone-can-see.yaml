@@ -1,0 +1,18 @@
+urlTranslation: blog/everything-has-beauty-but-not-everyone-can-see.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      blog/everything-has-beauty-but-not-everyone-can-see](https://suave-chamoi\
+      s.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can-see)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [blog/everything-has-beauty-but-not-everyone-can-see](https://suave-chamois.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can-see)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [blog/everything-has-beauty-but-not-everyone-can-see](https://suave-chamois.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can-see)
+          inputs: []

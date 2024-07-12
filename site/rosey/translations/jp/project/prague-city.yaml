@@ -1,0 +1,18 @@
+urlTranslation: project/prague-city.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/prague-city](https://suave-chamois.cloudvent.net/project/prague-c\
+      ity)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [project/prague-city](https://suave-chamois.cloudvent.net/project/prague-city)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [project/prague-city](https://suave-chamois.cloudvent.net/project/prague-city)
+          inputs: []

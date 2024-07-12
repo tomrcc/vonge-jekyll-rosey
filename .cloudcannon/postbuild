@@ -1,5 +1,28 @@
 #!/usr/bin/env bash
-npx -y @pagebreak/cli --source _site --output _site
-npm i
 npx @bookshop/generate
-echo "📚 ✅ : Postbuild script finished"
+
+if [[ $TRANSLATE != "true" ]];
+then
+  echo "🌹Generating site with Rosey"
+  npx rosey generate --source _site --base site/rosey/base.json --base-urls site/rosey/base.urls.json
+  echo "🌹Generated a base.json from the built site"
+  echo "🌹Checking locales files against base.json to see if there are any differences"
+  npx rosey check --base site/rosey/base.json --locales site/rosey/locales
+  echo "🌹Generating translation files from base.json"
+  node utils/generateTranslationFiles.cjs
+  echo "🌹Generated translation files to be edited"
+  echo "🌹Generating the locales files Rosey needs from our translation files"
+  node utils/generateLocales.cjs
+  echo "🌹Generated locales"
+fi
+
+if [[ $TRANSLATE == "true" ]];
+then
+  echo "Translating site with Rosey"
+  # We only want this to run on our production site, as it can interfere with CloudCannon CMS's visual editor
+  # There's a little bit of shuffling around here to ensure the translated site ends up where CloudCannon picks up your site
+  mv ./_site ./untranslated_site                  
+  npx rosey build --source untranslated_site --dest _site --locales site/rosey/locales
+fi
+
+npx -y @pagebreak/cli --source _site --output _site

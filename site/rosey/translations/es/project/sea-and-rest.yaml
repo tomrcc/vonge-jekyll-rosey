@@ -1,0 +1,18 @@
+urlTranslation: project/sea-and-rest.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/sea-and-rest](https://suave-chamois.cloudvent.net/project/sea-and\
+      -rest)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [project/sea-and-rest](https://suave-chamois.cloudvent.net/project/sea-and-rest)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [project/sea-and-rest](https://suave-chamois.cloudvent.net/project/sea-and-rest)
+          inputs: []

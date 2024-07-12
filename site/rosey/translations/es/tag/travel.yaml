@@ -1,0 +1,16 @@
+urlTranslation: tag/travel.html
+_inputs:
+  $:
+    type: object
+    comment: "[See tag/travel](https://suave-chamois.cloudvent.net/tag/travel)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [tag/travel](https://suave-chamois.cloudvent.net/tag/travel)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [tag/travel](https://suave-chamois.cloudvent.net/tag/travel)
+          inputs: []

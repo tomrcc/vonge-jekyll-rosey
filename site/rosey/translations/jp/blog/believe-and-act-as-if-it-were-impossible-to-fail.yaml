@@ -1,0 +1,18 @@
+urlTranslation: blog/believe-and-act-as-if-it-were-impossible-to-fail.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      blog/believe-and-act-as-if-it-were-impossible-to-fail](https://suave-cham\
+      ois.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible-to-fail)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [blog/believe-and-act-as-if-it-were-impossible-to-fail](https://suave-chamois.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible-to-fail)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [blog/believe-and-act-as-if-it-were-impossible-to-fail](https://suave-chamois.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible-to-fail)
+          inputs: []

@@ -107,6 +107,21 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+  translations:
+    path: rosey/translations
+    output: false
+    icon: translate
+    disable_add: false
+    add_options:
+      - name: Add Language
+        icon: translate
+        href: cloudcannon:settings/build
+    _inputs:
+      urlTranslation:
+        type: text
+        comment: Provide a translation for the URL that Rosey will build this page at.
+    disable_add_folder: true
+    disable_file_actions: true
 collection_groups:
   - heading: Content
     collections:
@@ -117,9 +132,10 @@ collection_groups:
     collections:
       - posts
       - drafts
-  - heading: Settings
+  - heading: Data
     collections:
       - data
+      - translations
 _inputs:
   tags:
     type: multiselect

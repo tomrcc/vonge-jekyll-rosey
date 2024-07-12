@@ -1,0 +1,18 @@
+urlTranslation: project/antelope-anyon.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/antelope-anyon](https://suave-chamois.cloudvent.net/project/antel\
+      ope-anyon)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [project/antelope-anyon](https://suave-chamois.cloudvent.net/project/antelope-anyon)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [project/antelope-anyon](https://suave-chamois.cloudvent.net/project/antelope-anyon)
+          inputs: []

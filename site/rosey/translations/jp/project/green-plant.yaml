@@ -1,0 +1,18 @@
+urlTranslation: project/green-plant.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/green-plant](https://suave-chamois.cloudvent.net/project/green-pl\
+      ant)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [project/green-plant](https://suave-chamois.cloudvent.net/project/green-plant)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [project/green-plant](https://suave-chamois.cloudvent.net/project/green-plant)
+          inputs: []

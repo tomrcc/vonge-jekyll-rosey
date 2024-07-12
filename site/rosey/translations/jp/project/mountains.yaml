@@ -1,0 +1,17 @@
+urlTranslation: project/mountains.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/mountains](https://suave-chamois.cloudvent.net/project/mountains)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [project/mountains](https://suave-chamois.cloudvent.net/project/mountains)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [project/mountains](https://suave-chamois.cloudvent.net/project/mountains)
+          inputs: []
