@@ -1,0 +1,17 @@
+urlTranslation: project/the-rocks.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      project/the-rocks](https://suave-chamois.cloudvent.net/project/the-rocks)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [project/the-rocks](https://suave-chamois.cloudvent.net/project/the-rocks)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [project/the-rocks](https://suave-chamois.cloudvent.net/project/the-rocks)
+          inputs: []

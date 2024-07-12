@@ -1,0 +1,16 @@
+urlTranslation: schemas/post.html
+_inputs:
+  $:
+    type: object
+    comment: "[See schemas/post](https://suave-chamois.cloudvent.net/schemas/post)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [schemas/post](https://suave-chamois.cloudvent.net/schemas/post)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [schemas/post](https://suave-chamois.cloudvent.net/schemas/post)
+          inputs: []

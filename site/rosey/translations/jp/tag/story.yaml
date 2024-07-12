@@ -1,0 +1,16 @@
+urlTranslation: tag/story.html
+_inputs:
+  $:
+    type: object
+    comment: "[See tag/story](https://suave-chamois.cloudvent.net/tag/story)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [tag/story](https://suave-chamois.cloudvent.net/tag/story)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [tag/story](https://suave-chamois.cloudvent.net/tag/story)
+          inputs: []

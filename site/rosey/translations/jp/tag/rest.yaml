@@ -1,0 +1,16 @@
+urlTranslation: tag/rest.html
+_inputs:
+  $:
+    type: object
+    comment: "[See tag/rest](https://suave-chamois.cloudvent.net/tag/rest)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [tag/rest](https://suave-chamois.cloudvent.net/tag/rest)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [tag/rest](https://suave-chamois.cloudvent.net/tag/rest)
+          inputs: []

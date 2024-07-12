@@ -1,0 +1,16 @@
+urlTranslation: about/index.html
+_inputs:
+  $:
+    type: object
+    comment: "[See about/](https://suave-chamois.cloudvent.net/about/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es)
+          comment: Text to translate on
+            [about/](https://suave-chamois.cloudvent.net/about/)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on
+            [about/](https://suave-chamois.cloudvent.net/about/)
+          inputs: []

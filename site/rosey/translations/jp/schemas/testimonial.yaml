@@ -1,0 +1,18 @@
+urlTranslation: schemas/testimonial.html
+_inputs:
+  $:
+    type: object
+    comment: "[See
+      schemas/testimonial](https://suave-chamois.cloudvent.net/schemas/testimon\
+      ial)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (jp)
+          comment: Text to translate on
+            [schemas/testimonial](https://suave-chamois.cloudvent.net/schemas/testimonial)
+          inputs: []
+        - heading: Already translated (jp)
+          comment: Text already translated on
+            [schemas/testimonial](https://suave-chamois.cloudvent.net/schemas/testimonial)
+          inputs: []
