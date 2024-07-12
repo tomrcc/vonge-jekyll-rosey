@@ -132,9 +132,10 @@ collection_groups:
     collections:
       - posts
       - drafts
-  - heading: Settings
+  - heading: Data
     collections:
       - data
+      - translations
 _inputs:
   tags:
     type: multiselect
