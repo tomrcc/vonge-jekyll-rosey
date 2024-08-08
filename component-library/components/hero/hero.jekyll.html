@@ -8,7 +8,7 @@
 
           <div class="{{c}}__left">
             <h1 class="{{c}}__title" data-rosey="{{ include.title | slugify }}">{{ include.title }}</h1>
-            <div class="{{c}}__description" data-rosey="{{ include.description_html | slugify }}">{{ include.description_html }}</div>
+            <div class="{{c}}__description" data-rosey-ns="markdown" data-rosey="{{ include.description_html | slugify }}">{{ include.description_html }}</div>
             <div class="{{c}}__btn">
               <a href="{{ include.cta_button_link }}" class="cta-button c-button c-button--primary c-button--small" data-rosey="{{ include.cta_button | slugify }}">{{ include.cta_button }}</a>
               <a class="works-button c-button c-button--secondary c-button--small" href="{{ include.works_button_link }}" data-rosey="{{ include.works_button | slugify }}">
