@@ -1,18 +1,18 @@
 {
 	"get-in-touch": {
 		"original": "Get in touch",
-		"value": "Get in touch"
+		"value": "連絡する"
 	},
 	"hi-there-i-am-vanessa-marley": {
 		"original": "Hi there, I am Vanessa Marley",
-		"value": "Hi there, I am Vanessa Marley"
+		"value": "こんにちは、私はヴァネッサ・マーリーです"
 	},
 	"markdown:p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p": {
 		"original": "<p><strong>Photographer</strong> and <strong>Visual Content Strategist</strong> from Albany. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork.</p>",
-		"value": "<p><strong>Photographer</strong> and <strong>Visual Content Strategist</strong> from Albany. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork.</p>"
+		"value": "<p>アルバニー出身の写真家兼ビジュアル コンテンツ ストラテジスト。ライフスタイル、プロダクト、風景の写真家として活動し、オンラインメディアから印刷物まで、さまざまなリクエストに応じて画像を制作しています。</p>\n"
 	},
 	"see-my-works": {
 		"original": "\n                <span class=\"circle-bg\"><i class=\"ion ion-md-arrow-down button-arrow\"></i></span> See my works\n              ",
-		"value": "\n                <span class=\"circle-bg\"><i class=\"ion ion-md-arrow-down button-arrow\"></i></span> See my works\n              "
+		"value": "私の作品を見てください"
 	}
 }

@@ -19,11 +19,11 @@
 		"original": "projects/index.html",
 		"value": "projects/index.html"
 	},
-	"tag/life/index.html": {
-		"value": "tag/life.html"
-	},
 	"tag/lifestyle/index.html": {
 		"value": "tag/lifestyle.html"
+	},
+	"tag/life/index.html": {
+		"value": "tag/life.html"
 	},
 	"tag/notes/index.html": {
 		"value": "tag/notes.html"
@@ -55,14 +55,14 @@
 	"project/big-airplane/index.html": {
 		"value": "project/big-airplane.html"
 	},
+	"project/green-plant/index.html": {
+		"value": "project/green-plant.html"
+	},
 	"project/desk-setup/index.html": {
 		"value": "project/desk-setup.html"
 	},
 	"project/mountains/index.html": {
 		"value": "project/mountains.html"
-	},
-	"project/green-plant/index.html": {
-		"value": "project/green-plant.html"
 	},
 	"project/prague-city/index.html": {
 		"value": "project/prague-city.html"
@@ -85,17 +85,17 @@
 	"blog/everything-has-beauty-but-not-everyone-can-see/index.html": {
 		"value": "blog/everything-has-beauty-but-not-everyone-can-see.html"
 	},
-	"blog/it-is-never-too-late-to-be-what-you-might-have-been/index.html": {
-		"value": "blog/it-is-never-too-late-to-be-what-you-might-have-been.html"
-	},
 	"blog/life-shrinks-or-expands-in-proportion-to-one-s-courage/index.html": {
 		"value": "blog/life-shrinks-or-expands-in-proportion-to-one-s-courage.html"
 	},
-	"blog/strive-not-to-be-a-success-but-rather-to-be-of-value/index.html": {
-		"value": "blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html"
+	"blog/it-is-never-too-late-to-be-what-you-might-have-been/index.html": {
+		"value": "blog/it-is-never-too-late-to-be-what-you-might-have-been.html"
 	},
 	"blog/that-which-does-not-kill-us-makes-us-stronger/index.html": {
 		"value": "blog/that-which-does-not-kill-us-makes-us-stronger.html"
+	},
+	"blog/strive-not-to-be-a-success-but-rather-to-be-of-value/index.html": {
+		"value": "blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html"
 	},
 	"blog/the-way-i-see-it-every-life-is-a-pile-of-good-things/index.html": {
 		"value": "blog/the-way-i-see-it-every-life-is-a-pile-of-good-things.html"

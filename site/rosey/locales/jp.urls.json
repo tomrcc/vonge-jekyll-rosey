@@ -34,11 +34,11 @@
 	"tag/story/index.html": {
 		"value": "tag/story.html"
 	},
-	"schemas/page/index.html": {
-		"value": "schemas/page.html"
-	},
 	"tag/travel/index.html": {
 		"value": "tag/travel.html"
+	},
+	"schemas/page/index.html": {
+		"value": "schemas/page.html"
 	},
 	"schemas/project/index.html": {
 		"value": "schemas/project.html"
@@ -52,11 +52,11 @@
 	"project/antelope-anyon/index.html": {
 		"value": "project/antelope-anyon.html"
 	},
-	"project/desk-setup/index.html": {
-		"value": "project/desk-setup.html"
-	},
 	"project/big-airplane/index.html": {
 		"value": "project/big-airplane.html"
+	},
+	"project/desk-setup/index.html": {
+		"value": "project/desk-setup.html"
 	},
 	"project/green-plant/index.html": {
 		"value": "project/green-plant.html"
@@ -70,26 +70,23 @@
 	"project/quiet-lake/index.html": {
 		"value": "project/quiet-lake.html"
 	},
-	"project/sea-and-rest/index.html": {
-		"value": "project/sea-and-rest.html"
+	"blog/believe-and-act-as-if-it-were-impossible-to-fail/index.html": {
+		"value": "blog/believe-and-act-as-if-it-were-impossible-to-fail.html"
 	},
 	"project/the-rocks/index.html": {
 		"value": "project/the-rocks.html"
 	},
-	"blog/believe-and-act-as-if-it-were-impossible-to-fail/index.html": {
-		"value": "blog/believe-and-act-as-if-it-were-impossible-to-fail.html"
-	},
 	"blog/do-what-you-can-with-what-you-have-where-you-are/index.html": {
 		"value": "blog/do-what-you-can-with-what-you-have-where-you-are.html"
+	},
+	"project/sea-and-rest/index.html": {
+		"value": "project/sea-and-rest.html"
 	},
 	"blog/everything-has-beauty-but-not-everyone-can-see/index.html": {
 		"value": "blog/everything-has-beauty-but-not-everyone-can-see.html"
 	},
 	"blog/it-is-never-too-late-to-be-what-you-might-have-been/index.html": {
 		"value": "blog/it-is-never-too-late-to-be-what-you-might-have-been.html"
-	},
-	"blog/that-which-does-not-kill-us-makes-us-stronger/index.html": {
-		"value": "blog/that-which-does-not-kill-us-makes-us-stronger.html"
 	},
 	"blog/life-shrinks-or-expands-in-proportion-to-one-s-courage/index.html": {
 		"value": "blog/life-shrinks-or-expands-in-proportion-to-one-s-courage.html"
@@ -99,6 +96,9 @@
 	},
 	"blog/the-way-i-see-it-every-life-is-a-pile-of-good-things/index.html": {
 		"value": "blog/the-way-i-see-it-every-life-is-a-pile-of-good-things.html"
+	},
+	"blog/that-which-does-not-kill-us-makes-us-stronger/index.html": {
+		"value": "blog/that-which-does-not-kill-us-makes-us-stronger.html"
 	},
 	"blog/you-must-be-the-change-you-wish-to-see-in-the-world/index.html": {
 		"value": "blog/you-must-be-the-change-you-wish-to-see-in-the-world.html"
