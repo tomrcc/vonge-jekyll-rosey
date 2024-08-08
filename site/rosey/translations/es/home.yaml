@@ -8,14 +8,14 @@ _inputs:
       groups:
         - heading: Still to translate (es)
           comment: Text to translate on [](https://suave-chamois.cloudvent.net/)
+          inputs: []
+        - heading: Already translated (es)
+          comment: Text already translated on [](https://suave-chamois.cloudvent.net/)
           inputs:
             - get-in-touch
             - hi-there-i-am-vanessa-marley
-            - p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p
+            - markdown:p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p
             - see-my-works
-        - heading: Already translated (es)
-          comment: Text already translated on [](https://suave-chamois.cloudvent.net/)
-          inputs: []
   get-in-touch:
     label: Get in touch
     hidden: false
@@ -31,11 +31,27 @@ _inputs:
     comment: "[See on
       page](https://suave-chamois.cloudvent.net/#:~:text=Hi%20there%20I%20am%20\
       Vanessa%20Marley)"
-  p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p:
+  markdown:p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p:
     label: Photographer and Visual Content Strategist...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      format: p h1 h2 h3 h4
+      italic: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+      bulletedlist: true
+      numberedlist: true
+      blockquote: true
+      superscript: true
+      subscript: true
+      code: true
+      horizontalrule: true
+      image: true
     comment: "[See on
       page](https://suave-chamois.cloudvent.net/#:~:text=Photographer%20and%20V\
       isual,to%20printed%20artwork)"
@@ -53,7 +69,15 @@ _inputs:
     options: {}
     comment: "[See on
       page](https://suave-chamois.cloudvent.net/#:~:text=See%20my%20works)"
-get-in-touch: ""
-hi-there-i-am-vanessa-marley: ""
-p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p: ""
-see-my-works: ""
+get-in-touch: Ponerse en contacto
+hi-there-i-am-vanessa-marley: |
+  Hola, soy Vanessa Marley.
+markdown:p-strong-photographer-strong-and-strong-visual-content-strategist-strong-from-albany-i-work-as-a-lifestyle-product-and-landscape-photographer-creating-images-for-a-diverse-range-of-requests-from-online-media-to-printed-artwork-p: >-
+  **Fotógrafo** y **estratega de contenido visual** de Albany. Trabajo como
+  fotógrafo de estilos de vida, productos y paisajes, creando imágenes para una
+  amplia gama de solicitudes, desde medios en línea hasta obras de arte
+  impresas.
+
+
+  &nbsp;
+see-my-works: Ver mis trabajos
