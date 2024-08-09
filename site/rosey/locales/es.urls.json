@@ -19,11 +19,11 @@
 		"original": "projects/index.html",
 		"value": "projects/index.html"
 	},
-	"tag/lifestyle/index.html": {
-		"value": "tag/lifestyle.html"
-	},
 	"tag/life/index.html": {
 		"value": "tag/life.html"
+	},
+	"tag/lifestyle/index.html": {
+		"value": "tag/lifestyle.html"
 	},
 	"tag/notes/index.html": {
 		"value": "tag/notes.html"
@@ -43,14 +43,17 @@
 	"schemas/post/index.html": {
 		"value": "schemas/post.html"
 	},
-	"schemas/project/index.html": {
-		"value": "schemas/project.html"
-	},
 	"schemas/testimonial/index.html": {
 		"value": "schemas/testimonial.html"
 	},
+	"schemas/project/index.html": {
+		"value": "schemas/project.html"
+	},
 	"project/antelope-anyon/index.html": {
 		"value": "project/antelope-anyon.html"
+	},
+	"project/desk-setup/index.html": {
+		"value": "project/desk-setup.html"
 	},
 	"project/big-airplane/index.html": {
 		"value": "project/big-airplane.html"
@@ -58,14 +61,11 @@
 	"project/green-plant/index.html": {
 		"value": "project/green-plant.html"
 	},
-	"project/desk-setup/index.html": {
-		"value": "project/desk-setup.html"
+	"project/prague-city/index.html": {
+		"value": "project/prague-city.html"
 	},
 	"project/mountains/index.html": {
 		"value": "project/mountains.html"
-	},
-	"project/prague-city/index.html": {
-		"value": "project/prague-city.html"
 	},
 	"project/quiet-lake/index.html": {
 		"value": "project/quiet-lake.html"
@@ -82,14 +82,14 @@
 	"blog/do-what-you-can-with-what-you-have-where-you-are/index.html": {
 		"value": "blog/do-what-you-can-with-what-you-have-where-you-are.html"
 	},
+	"blog/it-is-never-too-late-to-be-what-you-might-have-been/index.html": {
+		"value": "blog/it-is-never-too-late-to-be-what-you-might-have-been.html"
+	},
 	"blog/everything-has-beauty-but-not-everyone-can-see/index.html": {
 		"value": "blog/everything-has-beauty-but-not-everyone-can-see.html"
 	},
 	"blog/life-shrinks-or-expands-in-proportion-to-one-s-courage/index.html": {
 		"value": "blog/life-shrinks-or-expands-in-proportion-to-one-s-courage.html"
-	},
-	"blog/it-is-never-too-late-to-be-what-you-might-have-been/index.html": {
-		"value": "blog/it-is-never-too-late-to-be-what-you-might-have-been.html"
 	},
 	"blog/that-which-does-not-kill-us-makes-us-stronger/index.html": {
 		"value": "blog/that-which-does-not-kill-us-makes-us-stronger.html"
