@@ -27,22 +27,31 @@
 
               {% for item in site.data.navigation.menu__settings.menu__items %}
                 {% if item.submenu %}
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    {% for submenu-item in item.submenu %}
-                      <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
-                    {% endfor %}
-                  </div>
-                </li>
-
+                  <li class="nav__item dropdown">
+                    <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                    <div class="dropdown-menu">
+                      {% for submenu-item in item.submenu %}
+                        <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                      {% endfor %}
+                    </div>
+                  </li>
                 {% else %}
-                <li class="nav__item">
-                  <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
-                </li>
+                  <li class="nav__item">
+                    <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
+                  </li>
                 {% endif %}
               {% endfor %}
-
+              <li class="nav__item dropdown">
+                <span class="nav__link dropdown-toggle">Languages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                <div class="dropdown-menu">
+                {% for item in site.data.navigation.menu__settings.languages %}
+                  <a href="/{{ item.code }}{{ page.url | relative_url }}" class="nav__link" style="width: max-content">
+                    {{ item.name }}
+                    <img style="width: 32px; margin-left: 1rem;" src="{{ item.flag }}" alt="{{ item.name }} flag">
+                  </a>
+                {% endfor %}
+                </div>
+              </li>
             </ul>
           </div>
 
